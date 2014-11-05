@@ -1,10 +1,16 @@
 h1 {
-color:rgb(18,109,128); font-size:28pt; font-family:Verdana}
+color:rgb(18,109,128); font-size:28pt; font-family:Verdana;
+}
 h2 {
-color:rgb(18,128,76); font-size:18pt; font-family:Verdana}
+color:rgb(18,128,76); font-size:18pt; font-family:Verdana;
+}
 p {
-color:rgb(91,128,18); font-size:14pt; font-family:Verdana}
+color:rgb(91,128,18); font-size:14pt; font-family:Verdana;
+}
 body {
   background-color:rgb(204,204,204)
+}
+a {
+  color:rgb(18,109,128); font-size:14pt; font-family:verdana;
 }
 
