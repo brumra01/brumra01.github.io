@@ -17,7 +17,10 @@ h1 {
 .personal {
     background-color:rgb(194,252,251);
     width:100px;
-    }
+}
+.incart {
+    display:block;
+}
 ul {
     font-family:arial;
     style-type:none;
