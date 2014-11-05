@@ -19,7 +19,7 @@ h1 {
     width:100px;
 }
 .incart {
-    display:block;
+    text-decoration:line-through;
 }
 ul {
     font-family:arial;
