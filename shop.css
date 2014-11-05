@@ -4,19 +4,19 @@ h1 {
     }
 .vegetable {
     background-color:rgb(191,255,192);
-    width:100px;
+    width:50px;
     }
 .fruit {
     background-color:rgb(252,225,177);
-    width:100px;
+    width:50px;
     }
 .meat {
     background-color:rgb(252,194,194);
-    width:100px;
+    width:50px;
     }
 .personal {
     background-color:rgb(194,252,251);
-    width: 100px;
+    width: 50px;
     }
 ul {
     font-family:arial;
