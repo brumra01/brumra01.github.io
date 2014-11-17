@@ -26,9 +26,13 @@ background-color:lightgray;
 nav:active .question{
   display:none;
 }
+input:checked ~ .question {
+  background-color:lightgreen;
+}
 </style>
 </head>
 <nav>
+<input type="checkbox">
   <section class="answer">
     <p>Laden or Unladen?</p>
   </section>
@@ -37,14 +41,16 @@ nav:active .question{
   </section>
 </nav>
 <nav>
+<input type="checkbox">
   <section class="answer">
     <p>George Washington</p>
   </section>
   <section class="question">
     <p>Who was the first president?</p>
   </section>
-<nav>
 </nav>
+<nav>
+<input type="checkbox">
   <section class="answer">
     <p>John Marshall</p>
   </section>
@@ -53,6 +59,7 @@ nav:active .question{
   </section>
 </nav>
 <nav>
+<input type="checkbox">
   <section class="answer">
     <ul type=none><li>Ruth Bader Ginsburg</li><li>Antonin Scalia</li><li>Samuel Alito</li><li>Sonya Sotomayor</li><li>Elena Kagen</li><li>Clarence Thomas</li><li>John Roberts</li><li>Anthony Kennedy</li><li>Stephan G. Breyer</li></ul>
   </section>
