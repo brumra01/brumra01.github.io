@@ -31,6 +31,14 @@ footer{
   clear:both;
   background-color:rgb(138,255,183);
 }
+img.full{
+  width:80%;
+  height:30px;
+}
+img.partial{
+  float:right;
+  height: 50px;
+}
 h1 {
 color:rgb(18,109,128); font-size:28pt; font-family:Verdana;
 }
