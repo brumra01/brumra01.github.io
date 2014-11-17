@@ -31,11 +31,11 @@ footer{
 }
 img.full{
   width:80%;
-  height:30px;
+  height:150px;
 }
 img.partial{
   float:right;
-  height: 50px;
+  height: 200px;
 }
 h1 {
 color:rgb(18,109,128); font-size:28pt; font-family:Verdana;
