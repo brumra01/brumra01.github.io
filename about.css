@@ -9,12 +9,14 @@ color:white;
 }
 section{
 float:left;
+margin-top:100px;
 width:30%;
 background-color:#ffed9d;
 color:red;
 }
 aside{
 float:right;
+margin-top:100px
 width:70%;
 background-color:#ffc077;
 color:black;
