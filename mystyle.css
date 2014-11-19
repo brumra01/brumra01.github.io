@@ -20,7 +20,7 @@ nav li{
 }
 section{
   float:left;
-  top:125px;
+  top:150px;
   width:20%;
   height:500px;
   background-color:rgb(255,154,205);
@@ -28,7 +28,7 @@ section{
 }
 aside{
   float:left;
-  top:125px;
+  top:150px;
   width:80%;
   height:500px;
 }
