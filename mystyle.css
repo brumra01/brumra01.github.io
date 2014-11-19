@@ -1,6 +1,6 @@
 header{
   position:fixed;
-  background-color:rgb(141,223,255);
+  background-color:#749bb8;
   top:0px;
   left:0px;
   width:100%;
@@ -12,9 +12,10 @@ nav {
   height:25px;
   left:0px;
   right:0px;
-  background-color:rgb(138,255,183);
+  background-color:#5b6775;
 }
 nav li{
+  color:white;
   display:inline;
   margin-left:100px;
 }
@@ -23,7 +24,7 @@ section{
   top:150px;
   width:20%;
   height:500px;
-  background-color:rgb(255,154,205);
+  background-color:#cf4f29;
   color:navy;
 }
 aside{
@@ -34,7 +35,7 @@ aside{
 }
 footer{
   clear:both;
-  background-color:rgb(138,255,183);
+  background-color:#c6d1ff;
 }
 img.full{
   width:100%;
@@ -54,7 +55,7 @@ p {
 color:rgb(91,128,18); font-size:14pt; font-family:Verdana;
 }
 body {
-  background-color:rgb(204,204,204)
+  background-color:#e9edff;
 }
 a {
   color:rgb(18,109,128); font-size:14pt; font-family:verdana;
