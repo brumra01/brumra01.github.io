@@ -20,6 +20,7 @@ nav li{
   margin-left:100px;
 }
 section{
+  position:relative;
   float:left;
   margin-top:150px;
   width:20%;
@@ -28,6 +29,7 @@ section{
   color:navy;
 }
 aside{
+  position:relative;
   float:left;
   margin-top:150px;
   width:80%;
