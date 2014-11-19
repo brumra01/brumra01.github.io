@@ -7,10 +7,10 @@ header{
   height:100px;
 }
 nav {
-  margin-top:100px;
+  top:100px;
   width:100%;
-  margin-left:0px;
-  margin-right:0px;
+  left:0px;
+  right:0px;
   background-color:rgb(138,255,183);
 }
 nav li{
