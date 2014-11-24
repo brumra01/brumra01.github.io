@@ -27,7 +27,6 @@ section{
   width:20%;
   height:500px;
   background-color:#cf4f29;
-  color:navy;
 }
 aside{
   position:relative;
@@ -62,7 +61,7 @@ h2#side{
   color:#e9edff;
 }
 p {
-color:rgb(91,128,18); font-size:14pt; font-family:Verdana;
+color:#5b6775; font-size:14pt; font-family:Verdana;
 }
 body {
   background-color:#e9edff;
