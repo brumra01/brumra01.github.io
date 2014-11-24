@@ -36,7 +36,7 @@ input:checked ~ .question{
 }
 </style>
 </head>
-<p>Correct:</p><p id=count>0</p>
+<p id=count>Correct: 0</p>
 <nav>
 <input type="Checkbox" onclick="CorrectAnswers();">
   <section class="answer">
@@ -81,7 +81,7 @@ counter=0;
 CorrectAnswers = function() {
   counter=counter+1;
   mycount=document.querySelector('#count');
-  mycount.innerHTML=counter;
+  mycount.innerHTML="Correct" + counter;
 }
 </script>
 
