@@ -48,8 +48,8 @@ input:checked ~ .question{
 </nav>
 
 <nav>
-<input type="checkbox">
-  <section class="answer" onclick="CorrectAnswers();">
+<input type="checkbox" onclick="CorrectAnswers();">
+  <section class="answer">
     <p>George Washington</p>
   </section>
   <section class="question">
@@ -81,7 +81,7 @@ counter=0;
 CorrectAnswers = function() {
   counter=counter+1;
   mycount=document.querySelector('p');
-  mycount.innerHTML=counter;
+  mycount.innerHTML=Correct: counter;
 }
 </script>
 
