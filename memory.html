@@ -79,13 +79,13 @@ input:checked ~ .question{
 <script type="text/javascript">
 counter=0;
 CorrectAnswers = function(cbID) {
-  theCheckBox = document.querySelector("#"+cbID);
+    mycount=document.querySelector('#count');
+    theCheckBox = document.querySelector("#"+cbID);
   if (theCheckBox.checked){
     counter = counter+1;
   } else {
     counter=counter-1;
   }
-  mycount=document.querySelector('#count');
   mycount.innerHTML="Correct: " + counter;
 }
 </script>
