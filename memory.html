@@ -38,7 +38,7 @@ input:checked ~ .question{
 </head>
 <p id=count>Correct: 0</p>
 <nav>
-<input type="Checkbox" onclick="CorrectAnswers();">
+<input type="Checkbox" onclick="CorrectAnswers(\"cb1\");" id="cb1">
   <section class="answer">
     <p>Laden or Unladen?</p>
   </section>
@@ -48,7 +48,7 @@ input:checked ~ .question{
 </nav>
 
 <nav>
-<input type="checkbox" onclick="CorrectAnswers();">
+<input type="checkbox" onclick="CorrectAnswers((\"cb2\");" id="cb2">
   <section class="answer">
     <p>George Washington</p>
   </section>
@@ -58,17 +58,17 @@ input:checked ~ .question{
 </nav>
 
 <nav>
-<input type="checkbox" onclick="CorrectAnswers();">
+<input type="checkbox" onclick="CorrectAnswers(\"cb3\");" id="cb3">
   <section class="answer">
     <p>John Marshall</p>
   </section>
   <section class="question">
-    <p>Who was the most influential supreme court justice?</p>
+    <p>Who was arguably the most influential supreme court justice?</p>
   </section>
 </nav>
 
 <nav>
-<input type="checkbox" onclick="CorrectAnswers();">
+<input type="checkbox" onclick="CorrectAnswers(\"cb4\");" id="cb4">
   <section class="answer">
     <ul type=none><li>Ruth Bader Ginsburg</li><li>Antonin Scalia</li><li>Samuel Alito</li><li>Sonya Sotomayor</li><li>Elena Kagen</li><li>Clarence Thomas</li><li>John Roberts</li><li>Anthony Kennedy</li><li>Stephan G. Breyer</li></ul>
   </section>
@@ -78,8 +78,13 @@ input:checked ~ .question{
 </nav>
 <script type="text/javascript">
 counter=0;
-CorrectAnswers = function() {
-  counter=counter+1;
+CorrectAnswers = function(cbID) {
+  theCheckBox = document.querySelector("#"+cbID);
+  if (theCheckBox.checked){
+    counter = counter+1;
+  } else {
+    counter=counter-1;
+  }
   mycount=document.querySelector('#count');
   mycount.innerHTML="Correct: " + counter;
 }
