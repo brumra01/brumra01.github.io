@@ -11,10 +11,11 @@
 <button onclick="newItem();">Add</button>
 <script>
   newItem = function (){
-    litem=document.createElement('li');
-    contents=document.querySelector('#itemAdd').value;
+    myLi=document.createElement("li");
+    contents=document.querySelector("#itemAdd");
     myUl=document.querySelector('#grocery');
-    litem.appendChild(contents);
-    myUl.appendChild(litem);
+    myGrocery=document.createTextNode(contents.value);
+    myLi.appendChild(myGrocery);
+    myUl.appendChild(myLi);
   }
 </script>
