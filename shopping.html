@@ -22,7 +22,8 @@
     contents=document.querySelector("#itemAdd");
     myUl=document.querySelector('#grocery');
     myGrocery=document.createTextNode(contents.value);
-    myInput=document.createElement("input")
+    myInput=document.createElement("input");
+    myInput.type=checkbox;
     myLi.appendChild(myGrocery);
     myLi.appendChild(myInput);
     myUl.appendChild(myLi);
