@@ -5,14 +5,15 @@
 </head>
 <body>
 <h1>Grocery List</h1>
-<ul>
+<ul id="ul1">
 </ul>
 <input type="text" id="itemAdd"/><br>
 <button onclick="newItem();">Add</button>
 <script>
   newItem = function (){
     litem=document.createElement("li")
-    contents=document.querySelector("#newItem")
+    contents=document.querySelector("#itemAdd")
+    ul=document.querySelector("#ul1")
     li.appendChild(contents)
     ul.appendChild(litem)
   }
