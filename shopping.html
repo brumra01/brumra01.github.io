@@ -7,14 +7,14 @@
 <h1>Grocery List 1</h1>
 <ul id="ul1">
 </ul>
-<input type="text" id="itemAdd"/><br>
+<input type="text" id="itemAdd" value=""/><br>
 <button onclick="newItem();">Add</button>
 <script>
   newItem = function (){
-    litem=document.createElement("li")
-    contents=document.querySelector("#itemAdd")
-    ul=document.querySelector("#ul1")
-    li.appendChild(contents)
-    ul.appendChild(litem)
+    litem=document.createElement("li");
+    contents=document.querySelector("#itemAdd").value;
+    ul=document.querySelector("#ul1");
+    li.appendChild(contents);
+    ul.appendChild(litem);
   }
 </script>
