@@ -30,7 +30,7 @@
     myUl.appendChild(myLi);
     contents.value=""
     myLi.classList.add(myClass.value)
-    myInput.onclick=checkMe;
+    myInput.onclick="checkMe()";
   }
     checkMe = function(){
     this.checked.this.parentNode.classList("done");
