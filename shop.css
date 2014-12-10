@@ -2,7 +2,7 @@ h1 {
     color:rgb(181,0,181);
     font-family:arial;
     }
-.vegetable {
+.vege {
     background-color:rgb(191,255,192);
     width:120px;
     }
@@ -14,11 +14,15 @@ h1 {
     background-color:rgb(252,194,194);
     width:120px;
     }
-.personal {
+.dairy {
     background-color:rgb(194,252,251);
     width:120px;
 }
-.incart {
+.snack {
+    background-color:rgb(166,2,255);
+    width:120px;
+}
+.done {
     text-decoration:line-through;
 }
 ul {
