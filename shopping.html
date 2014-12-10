@@ -4,7 +4,7 @@
 <link rel="stylesheet" href="shop.css" type="text/css">
 </head>
 <body>
-<h1>Grocery List 1</h1>
+<h1>Grocery List</h1>
 <ul id="grocery">
 </ul>
 <input type="text" id="itemAdd" value=""/><br>
@@ -23,10 +23,12 @@
     myUl=document.querySelector('#grocery');
     myGrocery=document.createTextNode(contents.value);
     myInput=document.createElement("input");
+    myClass=document.querySelector(#type)
     myInput.type="checkbox";
     myLi.appendChild(myGrocery);
     myLi.appendChild(myInput);
     myUl.appendChild(myLi);
     contents.value=""
+    myLi.classList.add(myClass.value)
   }
 </script>
