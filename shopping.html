@@ -31,7 +31,6 @@
     contents.value=""
     myLi.classList.add(myClass.value)
     myInput.onclick=checkMe;
-    localSave("grocery");
   }
     checkMe = function(){
         if (myInput.checked){
@@ -39,6 +38,7 @@
       } else {
           this.parentNode.classList.remove("done");
       }
+      localSave("grocery");
     }
     </script>
     <script src="http://reputablejournal.com/CS130/listsaver.js" type="text/javascript"></script>
