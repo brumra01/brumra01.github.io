@@ -31,6 +31,7 @@
     contents.value=""
     myLi.classList.add(myClass.value)
     myInput.onclick=checkMe;
+    localSave('grocery');
   }
     checkMe = function(){
         if (myInput.checked){
@@ -39,5 +40,7 @@
           this.parentNode.classList.remove("done");
       }
     }
-
+window.onload=function() {
+  restoreList('#grocery',checkMe);
+}
 </script>
